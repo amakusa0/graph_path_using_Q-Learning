@@ -50,3 +50,4 @@ def save_qtable(dirname, epoch, q_table):
 	"""
 	with open('./save/'+dirname+'/q_table.pickle', mode='wb') as f:
 		pickle.dump([epoch, q_table.table], f)
+
